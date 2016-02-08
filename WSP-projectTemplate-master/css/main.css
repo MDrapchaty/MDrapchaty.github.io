@@ -1,0 +1,65 @@
+/* Project CSS 
+============================================================
+============================================================*/
+
+section{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #6E7476;
+}
+body{
+	background-color: #4B4E50;
+	font-family: 'Fjalla One';
+}
+p{
+	text-align: center;
+}
+
+ol{
+	text-align: center;
+	list-style-position: inside; 
+	margin-bottom: 20px;
+}
+
+li:nth-child(even){
+	background-color: #AAB3B6;
+}
+/* HEADER ============================== */
+h1{
+	font-size: 3.8em;
+	font-weight: bold;
+}
+h1 span{
+	color: #E6F1F5;
+}
+h1 + h3{
+	font-size: 1.6em;
+	float: left;
+
+}
+header{
+	width: 80%;
+	margin: 10px auto ;
+	overflow: auto;
+}
+/* ABOUT ============================== */
+
+/* COMPONENTS ============================== */
+img{
+	width: 100%;
+}
+h3{
+	font-size: 2em;
+	text-align: center;
+	margin: 20px;
+}
+
+h2{
+	color: #E6F1F5;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 20px;
+}
+section:last-child{
+	border: 4px dotted #E6F1F5 ;
+}
