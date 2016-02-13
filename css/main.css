@@ -1,8 +1,20 @@
 /* Project CSS 
 ============================================================
 ============================================================*/
+#about{
+	width: 50%;
+	min-width: 400px;
+}
 
-section{
+#about h3{
+	font-weight: bold;
+}
+
+#about p{
+	color: #2D3030;
+}
+
+article, section{
 	width: 80%;
 	margin: 0 auto;
 	background-color: #6E7476;
@@ -13,16 +25,30 @@ body{
 }
 p{
 	text-align: center;
+	color: #2D3030;
+	width: 80%;
+	margin: 0 auto;
 }
 
 ol{
 	text-align: center;
 	list-style-position: inside; 
-	margin-bottom: 20px;
+	margin-bottom: 80px;
 }
 
 li:nth-child(even){
 	background-color: #AAB3B6;
+}
+
+footer{
+	background-color: #2D3030;
+	height: 40px;
+	padding: 5px;
+}
+
+footer p{
+	color: #E6F1F5;
+
 }
 /* HEADER ============================== */
 h1{
@@ -47,6 +73,7 @@ header{
 /* COMPONENTS ============================== */
 img{
 	width: 100%;
+
 }
 h3{
 	font-size: 2em;
@@ -56,10 +83,15 @@ h3{
 
 h2{
 	color: #E6F1F5;
-	font-size: 2.5em;
+	font-size: 2.6em;
 	text-align: center;
 	margin: 20px;
+	margin-bottom: 30px;
 }
-section:last-child{
+#featured{
 	border: 4px dotted #E6F1F5 ;
+}
+
+li{
+	color: #2D3030;
 }
