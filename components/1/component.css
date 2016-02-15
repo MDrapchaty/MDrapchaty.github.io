@@ -1,4 +1,63 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 
+nav{
+	
+	max-width: 850px; 
+	margin: 0 auto;
+	
+}
+
+#wrapper{
+	
+	padding: 15px 0;
+	border-bottom: 1px black solid;
+}
+
+ul{
+	list-style-type: none;
+	float:right; 
+	margin-top: 20px;
+}
+
+li{
+	display: inline-block;
+	font-size: .8em;
+	
+}
+
+li a{
+	color: black;
+}
+
+
+nav::after{
+	content: "";
+	display: table;
+	clear:both;
+}
+
+img{
+	margin-top: 10px;
+	float: left;
+	width: 15%;
+	min-width: 100px;
+}
+
+nav li{
+	margin-left: 15px;
+}
+
+.active::after{
+	content: "";
+	display: block;
+	width: 30px;
+	height: 5px;
+	background-color: red;
+
+	
+}

@@ -33,7 +33,7 @@ p{
 ol{
 	text-align: center;
 	list-style-position: inside; 
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 li:nth-child(even){
@@ -94,4 +94,19 @@ h2{
 
 li{
 	color: #2D3030;
+}
+
+.button{
+	display: inline-block;
+	width: 300px;
+	background-color: red;
+	color: white;
+	padding: 20px;
+	
+	margin-bottom: 40px;
+}
+
+.button:hover{
+	color:red;
+	background-color: white;
 }

@@ -2,3 +2,63 @@
 ============================================================
 ============================================================*/
 
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+}
+
+section div:first-of-type{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section div:first-of-type h2{
+	font-weight: bold;
+	font-size: 1em;
+	margin-bottom: 20px;
+}
+
+.career{
+	width: calc(100% / 3);
+	height: 175px;
+	background: url('career.png') no-repeat center center;
+	float: left;
+}
+
+.business{
+	width: calc(100% / 3);
+	height: 175px;
+	background: url('business.png') no-repeat center center;
+	float: left;
+}
+
+.home{
+	width: calc(100% / 3);
+	height: 175px;
+	background: url('home.png') no-repeat center center;
+	float: left;
+}
+
+.upgrade{
+	width: calc(100% / 2);
+	height: 175px;
+	background: url('upgrade.png') no-repeat center center;
+	float: left;
+}
+
+.move{
+	width: calc(100% / 2);
+	height: 175px;
+	background: url('move.png') no-repeat center center;
+	float: left;
+}
+
+.create{
+	width: 100%;
+	height: 225px;
+	background: url('create.png') no-repeat center center;
+	float: left;
+}
+
+

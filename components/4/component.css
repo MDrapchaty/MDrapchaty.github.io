@@ -1,4 +1,141 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+}
+p{
+	color:#6e7879;
+	font-size: .7em;
+}
 
+section div:first-of-type{
+	max-width: 800px;
+	min-width: 750px;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+.button{
+	display: inline-block;
+	width: 100px;
+	background-color: rgba(255,0,0,.6);
+	color: white;
+	padding: 7px 16px;
+	text-align: center;
+	margin-bottom: 40px;
+	}
+
+h2{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+h2 + p{
+	margin-bottom: 25px;
+}
+
+article{
+	text-align: left;
+	position: relative;
+}
+
+.growth{
+	width: 50%;
+	float: left;
+	margin-bottom: 60px;
+}
+
+.growth h3, .growth p{
+	padding-left: 35%;
+	padding-right: 20%;
+}
+
+.growth::before{
+	display: table;
+	content: "";
+	width: 70px;
+	height: 70px;
+	background: url("growth.png") no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	top: calc(50% - 35px);
+	left: 60px;
+
+}
+
+.innovation{
+	width: 50%;
+	float: left;
+	margin-bottom: 60px;
+}
+
+.innovation h3, .innovation p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.innovation::before{
+	display: table;
+	content: "";
+	width: 70px;
+	height: 70px;
+	background: url("innovation.png") no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	top: calc(50% - 35px);
+	left: 0;
+
+}
+
+.solutions{
+	width: 50%;
+	float: left;
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.solutions h3, .solutions p{
+	padding-left: 35%;
+	padding-right: 20%;
+}
+
+.solutions::before{
+	display: table;
+	content: "";
+	width: 70px;
+	height: 70px;
+	background: url("solutions.png") no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	top: calc(50% - 35px);
+	left: 60px;
+
+}
+
+.objective{
+	width: 50%;
+	float: left;
+	margin-bottom: 40px;
+	
+}
+
+.objective h3, .objective p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.objective::before{
+	display: table;
+	content: "";
+	width: 70px;
+	height: 70px;
+	background: url("objective.png") no-repeat center center;
+	background-size: 100%;
+	position: absolute;
+	top: calc(50% - 35px);
+	left: 0;
+
+}
