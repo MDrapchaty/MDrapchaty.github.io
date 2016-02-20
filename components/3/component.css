@@ -19,46 +19,27 @@ section div:first-of-type h2{
 	margin-bottom: 20px;
 }
 
-.career{
+.career, .business, .home{
 	width: calc(100% / 3);
-	height: 175px;
-	background: url('career.png') no-repeat center center;
+	height: 10.9rem;
 	float: left;
 }
 
-.business{
-	width: calc(100% / 3);
-	height: 175px;
-	background: url('business.png') no-repeat center center;
-	float: left;
-}
-
-.home{
-	width: calc(100% / 3);
-	height: 175px;
-	background: url('home.png') no-repeat center center;
-	float: left;
-}
-
-.upgrade{
+.upgrade, .move{
 	width: calc(100% / 2);
-	height: 175px;
-	background: url('upgrade.png') no-repeat center center;
-	float: left;
-}
-
-.move{
-	width: calc(100% / 2);
-	height: 175px;
-	background: url('move.png') no-repeat center center;
+	height: 10.9rem;
 	float: left;
 }
 
 .create{
 	width: 100%;
-	height: 225px;
-	background: url('create.png') no-repeat center center;
+	height: 14rem;
 	float: left;
+}
+
+img{
+	width: 100%;
+	height: 100%;
 }
 
 
