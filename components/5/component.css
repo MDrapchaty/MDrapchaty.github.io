@@ -17,9 +17,10 @@ h2{
 	margin-bottom: 10px;
 	font-weight: bold;
 	font-size: 1.1em;
+	text-transform: uppercase;
 }
 
-section div:first-of-type{
+section {
 	max-width: 800px;
 	margin: 0 auto;
 	text-align: center;
@@ -42,7 +43,7 @@ article{
 } 
 
 article h3::before{
-	display: table;
+	display: block;
 	content: "";
 	width: 70px;
 	height: 70px;
@@ -53,18 +54,30 @@ article h3::before{
 	left: 10px;
 
 }
-
-article::after{
-	display: table;
-	content: "";
-	width: 70px;
-	height: 70px;
-	background: url("icons.png") no-repeat center center;
-	background-size: 100%;
-	position: absolute;
-	top: 75px;
-	left: calc(50% - 35px);
-	
-
+ul{
+	width: 49px;
+	margin-left: 45%;
+	margin-top: 1.5rem;
 }
 
+ul li {
+    background-image: url(nav-dot.png);
+    background-size: 100%;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    text-indent: -9999px;
+    width: 10px;
+}
+.active{
+	margin-right: 5px;
+	background-image: url(nav-dot-active.png);
+}
+
+li:last-of-type{
+	margin-left: 5px;
+}
+
+li:hover{
+	background-image: url(nav-dot-active.png);
+}

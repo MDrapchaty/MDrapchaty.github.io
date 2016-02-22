@@ -10,7 +10,7 @@ p{
 	font-size: .7em;
 }
 
-section div:first-of-type{
+section{
 	max-width: 800px;
 	min-width: 750px;
 	margin: 0 auto;
@@ -31,6 +31,7 @@ section div:first-of-type{
 h2{
 	font-weight: bold;
 	margin-bottom: 10px;
+	text-transform: uppercase;
 }
 
 h2 + p{
@@ -42,100 +43,76 @@ article{
 	position: relative;
 }
 
-.growth{
+h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: .8rem;
+}
+
+#growth{
 	width: 50%;
 	float: left;
 	margin-bottom: 60px;
 }
 
-.growth h3, .growth p{
+#growth h3, #growth p,#solutions h3, #solutions p{
 	padding-left: 35%;
 	padding-right: 20%;
 }
 
-.growth::before{
+article::before{
 	display: table;
 	content: "";
 	width: 70px;
 	height: 70px;
-	background: url("growth.png") no-repeat center center;
-	background-size: 100%;
 	position: absolute;
 	top: calc(50% - 35px);
-	left: 60px;
-
 }
 
-.innovation{
+#growth::before{
+	background: url("growth.png") no-repeat center center;
+	background-size: 110%;
+	left: 60px;
+}
+#innovation{
 	width: 50%;
 	float: left;
 	margin-bottom: 60px;
 }
-
-.innovation h3, .innovation p{
+#innovation h3, #innovation p, #objective h3, #objective p{
 	padding-left: 20%;
 	padding-right: 20%;
 }
 
-.innovation::before{
-	display: table;
-	content: "";
-	width: 70px;
-	height: 70px;
+#innovation::before{
 	background: url("innovation.png") no-repeat center center;
 	background-size: 100%;
-	position: absolute;
-	top: calc(50% - 35px);
 	left: 0;
-
 }
 
-.solutions{
+#solutions{
 	width: 50%;
 	float: left;
 	margin-bottom: 40px;
 	clear: both;
 }
 
-.solutions h3, .solutions p{
-	padding-left: 35%;
-	padding-right: 20%;
-}
-
-.solutions::before{
-	display: table;
-	content: "";
-	width: 70px;
-	height: 70px;
+#solutions::before{
 	background: url("solutions.png") no-repeat center center;
 	background-size: 100%;
-	position: absolute;
-	top: calc(50% - 35px);
 	left: 60px;
-
 }
 
-.objective{
+#objective{
 	width: 50%;
 	float: left;
 	margin-bottom: 40px;
 	
 }
 
-.objective h3, .objective p{
-	padding-left: 20%;
-	padding-right: 20%;
-}
-
-.objective::before{
-	display: table;
-	content: "";
-	width: 70px;
-	height: 70px;
+#objective::before{
 	background: url("objective.png") no-repeat center center;
 	background-size: 100%;
-	position: absolute;
-	top: calc(50% - 35px);
 	left: 0;
 
 }

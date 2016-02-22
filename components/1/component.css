@@ -3,6 +3,7 @@
 ============================================================*/
 body{
 	font-family: 'Open Sans', sans-serif;
+	padding: 15px 0;
 }
 
 nav{
@@ -12,11 +13,6 @@ nav{
 	
 }
 
-#wrapper{
-	
-	padding: 15px 0;
-	border-bottom: 1px black solid;
-}
 
 ul{
 	list-style-type: none;
