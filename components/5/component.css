@@ -9,14 +9,14 @@ body{
 
 p{
 	color:#6e7879;
-	font-size: .7em;
+	font-size: .7rem;
 }
 
 h2{
-	margin-top: 30px;
-	margin-bottom: 10px;
+	margin-top: 1.875rem;
+	margin-bottom: .625rem;
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: 1.1rem;
 	text-transform: uppercase;
 }
 
@@ -28,7 +28,7 @@ section {
 
 h2 +p{
 	width: 50%;
-	margin: 0 auto 30px;
+	margin: 0 auto 1.875rem;
 }
 
 h3{
@@ -38,20 +38,20 @@ h3{
 
 article{
 	text-align: left;
-	padding: 0 90px;
+	padding: 0 5.625rem;
 	position: relative;
 } 
 
 article h3::before{
 	display: block;
 	content: "";
-	width: 70px;
-	height: 70px;
+	width: 4.375rem;
+	height: 4.375rem;
 	background: url("face.png") no-repeat center center;
 	background-size: 100%;
 	position: absolute;
 	top: calc(50% - 35px);
-	left: 10px;
+	left: .625rem;
 
 }
 ul{
@@ -65,17 +65,17 @@ ul li {
     background-size: 100%;
     cursor: pointer;
     display: inline-block;
-    height: 10px;
+    height: .625rem;
     text-indent: -9999px;
-    width: 10px;
+    width: .625rem;
 }
 .active{
-	margin-right: 5px;
+	margin-right: .312rem;
 	background-image: url(nav-dot-active.png);
 }
 
 li:last-of-type{
-	margin-left: 5px;
+	margin-left: .312rem;
 }
 
 li:hover{
