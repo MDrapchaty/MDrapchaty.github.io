@@ -57,3 +57,88 @@ article::before{
 article:hover::before{
 	opacity: 1;
 }
+
+/* Slide out images */
+@keyframes myanimation1
+{
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+article:first-of-type{
+    animation: myanimation1 3s;
+}
+
+@keyframes myanimation2
+{
+    from {
+        top: -500px;
+    }
+    to {
+        top: 0px;
+    }
+}
+
+article:nth-of-type(2){
+    animation: myanimation2 3s;
+}
+ 
+@keyframes myanimation3
+{
+    from {
+        right: -100%;
+    }
+    to {
+        right: 0%;
+    }
+}
+
+ article:nth-of-type(3){
+	animation: myanimation3 3s;
+ } 
+
+ @keyframes myanimation4
+{
+    from {
+        left: -1000%;
+    }
+    to {
+        left: 0%;
+    }
+}
+
+ article:nth-of-type(4){
+	animation: myanimation4 3s;
+ } 
+
+ @keyframes myanimation5
+{
+    from {
+        right: -1000%;
+    }
+    to {
+        right: 0%;
+    }
+}
+
+ article:nth-of-type(5){
+	animation: myanimation5 3s;
+ } 
+
+  @keyframes myanimation6
+{
+    from {
+        bottom: -100000px;
+    }
+    to {
+        bottom: 0px;
+    }
+}
+
+ article:nth-of-type(6){
+	animation: myanimation6 3s;
+ } 

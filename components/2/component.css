@@ -37,24 +37,34 @@ section > section{
 	width: 25%;
 	padding:0 10px;
 	padding-top: 90px;
-	position: relative; 
+	position: relative;
+	text-align: center; 
 }
 
 h3{
 	font-weight: bold;
 	line-height: 1.1;
-	margin: 10px 0;
+	margin: 1.8rem auto .3rem;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	right: 1.5rem;
 }
-
-
 
 strong{
 	color: rgba(255,0,0,.6);
 	font-weight: bold;
 	font-size: 2.6em;
-
+	position: relative;
+	bottom: 1.1rem;
+	left: 50%;
 }
 
+#projects h3{
+	position: relative;
+	right: 2.2rem;
+	
+}
 
 #clients::before {
 	content: "";
